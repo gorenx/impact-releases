@@ -1,0 +1,14 @@
+name: 提出建议 · Feature request
+description: 提出改进 Impact 的想法
+title: '[Suggestion] '
+body:
+  - type: markdown
+    attributes:
+      value: 此 Issue 对所有人公开。请移除账号、密钥和私人内容。
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 建议
+      description: 你想完成什么？目前哪里不便？
+    validations:
+      required: true
